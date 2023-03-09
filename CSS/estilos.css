@@ -1,0 +1,63 @@
+body {
+  
+  background-image: url("C:\Users\LuU\DESARROLLO WEB\FUNDAMENTOS PROGRAMACION\Proyecto Final CV\Imagenes");
+  background-size: 800px;
+  
+}
+ 
+header {
+   text-align: center;
+   
+
+}
+nav {
+ text-align: center;
+
+}
+
+
+h1 {
+    text-shadow: 5cap;
+    color:gray;
+    margin: 0% auto;
+    text-align:center;
+
+    
+
+}
+
+img {
+  
+    border-radius: 50%;
+     display: block;
+     margin: auto;
+    
+    
+}
+
+.info {
+
+  background-color: rgb(93, 112, 93);
+  color: rgb(0, 0, 0);
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Tilt Warp', cursive;
+}
+
+footer {
+
+    margin-left: auto;
+    text-align: right;
+    text-size-adjust: 5px;
+}
+
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+  }

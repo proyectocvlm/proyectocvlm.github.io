@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&family=Tilt+Neon&family=Tilt+Warp&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"  href="CSS/estilos.css"/>
+
+</head>
+<body>
+ 
+
+    <header>
+ <h1>CV Rachel Fuller </h1>
+ <img src="https://randomuser.me/api/portraits/women/35.jpg" alt="cv" width="150" height="150">
+ 
+</header>
+
+
+<nav class="menu">
+    <ul>
+      <li><a href="#Datos">Información Personal</a></li> 
+      <li><a href="#Experiencia">Experiencia Laboral</a></li>
+      <li><a href="#Habilidades">Habilidades</a></li>
+      <li><a href="#Estudios">Educación</a></li>
+     
+    </ul>
+  </nav>
+  <section>
+        
+        <div class="info">
+            <h2 id="Datos">Datos Personales</h2>
+            <p id="demo">
+            </p>
+            <script>
+                const persona = '{"nombre":"Rachel Fuller", "edad":"3/3/1989", "email":"rachel.fuller@example.com", "telefono":"(344) 987-7930", "direccion":"6940 Mockingbird Hill"}'
+              const obj = JSON.parse(persona);
+               console.log(obj);
+               document.getElementById("demo").innerHTML = 
+               "<br> Nombre: " +obj.nombre+ 
+               "<br> Telefono: " +obj.telefono+
+               "<br> Fecha de Nacimiento: " +obj.edad+  
+               "<br> Email: " +obj.email+
+               "<br> Dirección: " +obj.direccion;
+           </script>  
+          </div>     
+        </section>     
+        <section>
+          <div class="info">   
+            <h2 id="Experiencia">Experiencia</h2>
+            <article>
+                <h3>Gestor Comercial</h3>
+                <h3>CaixaBank</h3>
+                <h4>Marzo 2019 - Actualidad</h4>
+                <p>Superé mis metas de venta en un 15% durante el trimestre octubre-diciembre 2019.
+                    Desarrollé un plan de acción comercial para atraer a 60 clientes nuevos.
+                    Mantuve relaciones comerciales prósperas con una cartera de más de 300 clientes diferentes.
+                    Responsable de la negociación y gestión de presupuestos para las operaciones mensuales.
+                    </p>
+            </article>
+            <sarticle>
+                <h3>Comercial</h3>
+                <h3>Energy Soul</h3>
+                <h4>Junio 2018 - Marzo 2019</h4>
+                <p>Incrementé la cartera de clientes en un 10%.
+                    Reporte semanal de actividad comercial y cumplimiento de objetivos.
+                    Di seguimiento oportuno y eficaz a las ventas con los más de 80 clientes de mi cartera.
+                    Desarrollo de estrategia digital para atraer clientes a través del portal web de la empresa.
+                    
+                    </p>
+            </article>
+            </div>  
+        </section>
+
+         <section>
+            
+            <div class="info">   
+            <h2 id="Habilidades">Habilidades</h2>
+            <p>Habilidades</p>
+            <ul>
+                <li>Atención al cliente</li>
+                <li>Comunicación oral y escrita</li>
+                <li>Manejo de presupuesto</li>
+                <li>Negociación y cierre de ventas</li>
+                <li>Atención al detalle</li>
+                <li>Generación de leads</li>
+
+            </ul>
+        </div> 
+
+    </section>
+    <section>
+        <div class="info">
+       <h1 id="Estudios">Educación</h1>
+       <p>Grado en economía y finanzas</p>
+       <p>Universidad Autónoma de Madrid</p>
+       <p>Septiembre 2014 - Junio 2018</p>
+        </div>
+
+    </section>
+    
+    <button onclick="myFunction()">Mas Info</button>
+    <script src="JS/funcion.js"></script>
+
+    
+
+    <footer>
+    <p>Hecho por Luciana Morel</p>
+    <p >mail lucianamorel@gmail.com</p>
+
+    </footer>
+
+</body>
+</html>
